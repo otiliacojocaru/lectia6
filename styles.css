@@ -1,0 +1,96 @@
+/* :root{
+    font-size: 24px;
+} */
+
+/* 
+div{
+    color: green ;
+    font-size: 2rem;
+} */
+
+/* .testem{
+    font-size: 16px;
+}
+
+span{
+    font-size: 16px;
+}
+
+.classname{
+    color: red ;
+}
+
+.classname1{
+    color: darkblue;
+    font-size: 2em;
+    font-weight: 1000;
+    line-height: 30px;
+    /* background-color: lightcyan; */
+    /* font-family:'Times New Roman', Times, serif;
+}
+
+
+#testid{
+    color: blueviolet;
+} */ 
+
+
+.unu {
+    border: 1px solid darkcyan;
+    width: 150px;
+    height: 150px;
+}
+
+.doi{
+    border: 6px solid darkmagenta;
+    width: 100%;
+    height: 50%;
+    padding: 16px 32px 48px 0;
+    /* margin: 32px 64px; */
+    box-sizing: border-box; 
+}
+
+.trei{
+    border: 2px solid green;
+    height:300px;
+    width: 300px;
+}
+
+body{
+    p:hover {
+        color: red;
+        /* border: 1px solid black; */
+    }
+
+    p:first-child{
+        color: green;
+    }
+
+    p:nth-child(3) {
+        color: green;
+    }
+
+    p:last-child{
+        color: lightpink;
+    }
+
+    p::before{
+        content: 'test ';
+    }
+
+    P::after{
+        content: ' dupa';
+    }
+}
+
+.class1, .class2{
+    color: darkorange;
+}
+
+.class1{
+    font-size: 2rem;
+}
+
+.class2{
+    font-size: 24px;
+}
